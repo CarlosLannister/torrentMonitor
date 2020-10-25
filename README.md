@@ -44,7 +44,7 @@ optional arguments:
   -T TIME, --time TIME  Sleeping time between downloading peers
 ```
 
-Download a torrent file or copy a magnet link and them specify it with -t option. 
+Download a torrent file or copy a magnet link and specify it with -t option. 
 
 ```
 python3 tracker.py -t AB4DEB4C2B2BE9EBCEB74955B3727BA45060C34B.torrent -o peers
