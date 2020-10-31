@@ -31,7 +31,7 @@ pipevn shell
 ## Usage 
 
 ```
-usage: tracker.py [-h] -t TORRENT [-g] [-o OUTPUT] [-ek] [-T TIME]
+usage: torrentMonitor.py [-h] -t TORRENT [-g] [-o OUTPUT] [-ek] [-T TIME]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -47,7 +47,7 @@ optional arguments:
 Download a torrent file or copy a magnet link and specify it with -t option. 
 
 ```
-python3 tracker.py -t AB4DEB4C2B2BE9EBCEB74955B3727BA45060C34B.torrent -o peers
+python3 torrentMonitor.py -t AB4DEB4C2B2BE9EBCEB74955B3727BA45060C34B.torrent -o peers
 ```
 
 ## IP Geolocation 
@@ -59,7 +59,7 @@ You can geolocate the IPs using -g option of torrentMonitor. In order to use IP 
 3. Setup your download mechanism by using our [GeoIP Update program](https://dev.maxmind.com/geoip/geoipupdate/#For_Free_GeoLite2_Databases) or creating a [direct download script](https://dev.maxmind.com/geoip/geoipupdate/#Direct_Downloads)
 
 ```
-python3 tracker.py -t AB4DEB4C2B2BE9EBCEB74955B3727BA45060C34B.torrent -o peers -g
+python3 torrentMonitor.py -t AB4DEB4C2B2BE9EBCEB74955B3727BA45060C34B.torrent -o peers -g
 ```
 
 ## Save data into elastic 
