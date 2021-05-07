@@ -1,9 +1,9 @@
 -i https://pypi.org/simple/
-aiohttp==3.7.4
+aiohttp==3.7.4.post0
 async-timeout==3.0.1
 attrs==20.3.0
 certifi==2020.12.5
-chardet==3.0.4
+chardet==4.0.0
 countryinfo==0.1.2
 elasticsearch==7.9.1
 geoip2==4.1.0
@@ -12,5 +12,5 @@ maxminddb==2.0.3
 multidict==5.1.0
 requests==2.25.1
 typing-extensions==3.7.4.3
-urllib3==1.26.3
+urllib3==1.26.4
 yarl==1.6.3
